@@ -1,0 +1,265 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.free{
+    background-color: rgb(37, 150, 190);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+}
+
+/* HEADER - MENU */
+#header{
+ display: flex;  
+ flex-wrap: wrap; 
+ align-items: center;
+ justify-content: space-between;
+ margin: 2em;
+}
+
+/* SITE NAME  */
+.Name{
+    color: rgb(0, 89, 255);
+    font-size: 2em;
+    margin-left: 3em;
+}
+
+/* NAVIGATION AREA */
+.my_nav{
+margin-right: 12em;
+}
+
+.my_nav ul{
+    display: inline-flex;
+}
+
+.my_nav a{
+    color: rgb(37, 150, 190);
+    text-decoration: none;
+    padding: 12px;
+}
+
+.my_nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.my_nav li{
+    list-style: none;
+}
+
+.icon{
+    display: flex;
+}
+
+.icon1, .icon2, .icon3{
+    height: 30px;
+    margin: 0;
+    padding: 5px;
+}
+
+/* SECTION 1 Burger OUTDOORS */
+#Burger_OUTDOORS{
+    background-image: url(../IMAGES/wi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: blue;
+    text-align: center;
+    padding: 14em;
+}
+
+#Burger_OUTDOORS .outdoor h1{
+    color: blue;
+}
+#Burger_OUTDOORS .outdoor h2{
+   margin: 0.4em;
+   font-size: 3em;
+}
+
+/* SECTION 2 WHO WE ARE */
+#Who_We_Are{
+text-align: center;
+margin: 3em;
+padding: 4em;
+}
+
+#Who_We_Are h1{
+    font-size: 2.5em;
+}
+#Who_We_Are p{
+    color: rgb(40, 122, 152);
+    font-size: 1.2em;
+    padding: 1em 7em 1em 7em;
+    line-height: 1.5;
+}
+
+/*  SECTION 3 WHERE WE ARE  */
+#Where_We_Are{
+   background-color: aliceblue;
+    text-align: center;
+    margin: 3em 0 0 0;
+    padding: 4em;
+}
+
+#Where_We_Are h1{
+    font-size: 2.5em;
+    padding: 0 0 1em 0;
+}
+#Where_We_Are p{
+    color: rgb(40, 122, 152);
+    font-size: 1.2em;
+    padding: 1em 7em 1em 7em;
+    line-height: 1.5;
+}
+
+/* SECTION 4 OUR VALUES */
+#Our_Values{
+    padding: 2em 5em;
+}
+
+#Our_Values h1{
+    text-align: center;
+    font-size: 2.5em;
+    padding: 3em 0 1.5em 0;
+}
+.Value{
+    display: flex;
+}
+
+.Value1, .Value2, .Value3{
+    padding: 1em;
+}
+
+.Value h3{
+    color: rgb(37, 150, 190);
+}
+.Value p{
+    padding: 1em 0;
+    line-height: 2;
+}
+
+.ValueHr{
+    /* border-top: none;
+    border-left: none; */
+    border: 0.5px solid black;
+    border-style: dotted;
+    opacity: 0.1;
+    /* margin: 0 30em; */
+}
+/* SECTION 5 Transparency */
+#Transparency{
+    text-align: center;
+    margin: 3em;
+    padding: 4em;
+}
+    
+#Transparency h1{
+        font-size: 2.5em;
+}
+
+#Transparency p{
+        color: rgb(40, 122, 152);
+        font-size: 1.2em;
+        padding: 1em 7em 1em 7em;
+        line-height: 1.5;
+}
+
+/* Let's Stay in Touch */
+#In_Touch{
+    background-color: rgb(22, 27, 29);
+    color: white;
+    text-align: center;
+    padding: 7em;
+}
+
+#In_Touch h1{
+    font-size: 2.5em;
+}
+
+#In_Touch p{
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
+
+#In_Touch input{
+    font-weight: bold;
+    width: 20em;
+    /* height: 3em; */
+    padding: 1em;
+    outline: none;
+}
+
+#In_Touch button{
+    background-color:  rgb(17, 75, 96);
+    color: white;
+    width: 13em;
+    padding: 1em;
+    border: 1px solid  rgb(37, 150, 190);
+    border-radius: 5px;
+}
+
+#In_Touch button:hover{
+   background-color: rgb(37, 150, 190);
+}
+
+/* SECTION 7 */
+#Footer_Section{
+    background-color:  rgb(17, 75, 96);
+    color: white;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer1{
+    margin: 3em;
+}
+
+.footer_list{
+    list-style: none;
+    margin-top: 2em;
+    line-height: 2;
+}
+
+.footer_social p{
+    margin-top: 2em;
+}
+
+.footer_social img{
+    height: 1.8em;
+    border-radius: 5px;
+    margin: 20px 0 10px 0;
+}
+
+.footer_shop{
+    /* padding: 2em; */
+}
+
+.footer_footer {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+}
+
+.footer_footer img{
+    height: 25px;
+    border-radius: 5px;
+    margin: 0.1em;
+}
+
+.footer_footer p{
+    /* text-align: center; */
+    padding: 1em;
+}

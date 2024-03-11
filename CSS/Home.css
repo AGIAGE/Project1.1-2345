@@ -1,0 +1,307 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.free{
+    background-color: rgb(37, 150, 190);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+}
+
+/* HEADER - MENU */
+#header{
+ display: flex;  
+ flex-wrap: wrap; 
+ align-items: center;
+ justify-content: space-around;
+ margin: 2em;
+}
+
+/* SITE NAME  */
+.Name{
+    color: rgb(0, 89, 255);
+    font-size: 2em;
+    margin-left: 3em;
+    /* padding-right: 2em; */
+}
+
+.Name h1{
+    padding-right: 1em;
+}
+
+/* NAVIGATION AREA */
+.my_nav{
+margin-right: 12em;
+}
+
+.my_nav ul{
+    display: inline-flex;
+}
+
+.my_nav a{
+    color: rgb(37, 150, 190);
+    text-decoration: none;
+    padding: 12px;
+}
+
+.my_nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.my_nav li{
+    list-style: none;
+}
+
+.icon{
+    display: flex;
+    padding-left: 7em;
+}
+
+.icon1, .icon2, .icon3{
+    height: 30px;
+    margin: 0;
+    padding: 5px;
+}
+
+hr{
+   border-color: rgb(215, 215, 215);
+   opacity: 0.2;
+}
+
+/* SECTION 2 */
+#Section_2{
+    background-image: url(../IMAGES/timba.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 10em;
+    line-height: 1.3;
+}
+
+#Section_2 h1{
+    font-size: 3em;
+}
+
+#Section_2 p{
+    font-size: 1.5em;
+}
+
+#Section_2 button{
+    background-color: white;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 2px solid white;
+    outline: none;
+    height: 3em;
+    width: 13em;
+    margin: 25px;
+}
+
+#Section_2 button:hover{
+    background-color: rgb(0, 89, 255);
+    color: white;
+    cursor: pointer;
+}
+
+.whatsapp{
+    position: fixed;
+    /* top: 20em; */
+    right: 0;
+    bottom: 0;
+}
+
+/* SECTION 3 */
+#Section_3{
+    text-align: center;
+    padding: 3em;
+}
+
+#Section_3 h2{
+    font-size: 2em;
+    margin: 4em; 
+    /* padding-left: 7em;
+    padding-right: 7em; */
+    line-height: 1.3;
+}
+
+/* SECTION 4 */
+#Section_4{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 2em 2em 2em;
+}
+
+#Section_4 .Sec4_image{
+    height: 19em;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#Section_4 a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#Section_4 a:hover{
+    color:  rgb(37, 150, 190);
+}
+
+#Section_4 form input{
+    height: 2em;
+}
+
+/* SECTION 5 */
+#Section_5{
+    /* background-color: aqua; */
+    display: flex;
+   /* justify-content: space-between; */
+    flex-wrap: wrap;
+   margin: 5em 2em 5em 2em;
+   padding: 0;
+   height: 30em;
+}
+
+#Section_5 .Give{
+    background-image: url(../IMAGES/IMG_0116_Webcopy_fc954dc1-e884-4990-8074-610e2ce000fe.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  width: 48%;
+}
+
+#Section_5 .Learn_more{
+    background-color: rgb(210, 229, 229);
+    align-items: center;
+   /* width: 50%; */
+   padding: 4em;
+   /* margin: 2em; */
+} 
+
+#Section_5 h1{
+    font-size: 1.5em;
+    line-height: 1.3;
+    margin: 2em 0 2em 0;
+}
+
+#Section_5 p{
+    line-height: 2;
+}
+
+#Section_5 button{
+    color: rgb(37, 150, 190);
+    font-weight: bold;
+    height: 3em;
+    width: 10em;
+    margin: 3em 0 0 0;
+    border-radius: 5px;
+    border: none;
+}
+
+#Section_5 button:hover{
+    background-color: rgb(37, 150, 190);
+    color: white;
+}
+
+/* SECTION 6 */
+#Section_6{
+    background-color: rgb(40, 122, 152);
+    color: white;
+    text-align: center;
+    padding: 7em;
+}
+
+#Section_6 h1{
+    font-size: 2.5em;
+}
+
+#Section_6 p{
+    color: white;
+    padding: 30px;
+}
+
+#Section_6 input{
+    font-weight: bold;
+    width: 20em;
+    /* height: 3em; */
+    padding: 1em;
+    outline: none;
+}
+
+#Section_6 button{
+    background-color:  rgb(17, 75, 96);
+    color: white;
+    width: 13em;
+    padding: 1em;
+    border: 1px solid  rgb(37, 150, 190);
+    border-radius: 5px;
+}
+
+#Section_6 button:hover{
+   background-color: rgb(37, 150, 190);
+}
+
+/* SECTION 7 */
+#Section_7{
+    background-color:  rgb(17, 75, 96);
+    color: white;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer1{
+    margin: 3em;
+}
+
+.footer_list{
+    list-style: none;
+    margin-top: 2em;
+    line-height: 2;
+}
+
+.footer_social p{
+    margin-top: 2em;
+}
+
+.footer_social img{
+    height: 1.8em;
+    border-radius: 5px;
+    margin: 20px 0 10px 0;
+}
+
+
+.footer_footer {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+}
+
+.footer_footer img{
+    height: 25px;
+    border-radius: 5px;
+    margin: 0.1em;
+}
+
+.footer_footer p{
+    /* text-align: center; */
+    padding: 1em;
+}
+
+
+/* RESPONSIVENESS */
+@media screen and (max-width: 480px) {
+
+    
+}

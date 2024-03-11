@@ -1,0 +1,255 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.free{
+    background-color: rgb(37, 150, 190);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+}
+
+/* HEADER - MENU */
+#header{
+ display: flex;  
+ flex-wrap: wrap; 
+ align-items: center;
+ justify-content: space-between;
+ margin: 2em;
+}
+
+/* SITE NAME  */
+.Name{
+    color: rgb(0, 89, 255);
+    font-size: 2em;
+    margin-left: 3em;
+}
+
+/* NAVIGATION AREA */
+.my_nav{
+margin-right: 12em;
+}
+
+.my_nav ul{
+    display: inline-flex;
+}
+
+.my_nav a{
+    color: rgb(37, 150, 190);
+    text-decoration: none;
+    padding: 12px;
+}
+
+.my_nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.my_nav li{
+    list-style: none;
+}
+
+.icon{
+    display: flex;
+}
+
+.icon1, .icon2, .icon3{
+    height: 30px;
+    margin: 0;
+    padding: 5px;
+}
+
+.Holiday_Sale{
+    margin:2em 0 1em 1em
+}
+
+
+ /* Versatile. Sustainable. Oh So Comfy!  */
+#Versatile{
+    background-image: url(../IMAGES/IMG_0116_Webcopy_fc954dc1-e884-4990-8074-610e2ce000fe.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 10em;
+    height: 10em;
+    line-height: 1.3;
+}
+
+#Versatile h1{
+    font-size: 3em;
+}
+
+#Versatile p{
+    font-size: 1.5em;
+}
+
+/* #Versatile button{
+    background-color: white;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 2px solid white;
+    outline: none;
+    height: 3em;
+    width: 13em;
+    margin: 25px;
+}
+
+#Versatile button:hover{
+    background-color: rgb(0, 89, 255);
+    color: white;
+    cursor: pointer;
+} */
+
+
+/* SECTION 1 */
+#Section_1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em 2em 2em 2em;
+}
+
+#Section_1 .Sec1_image{
+    height: 19em;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.Sec1_image:hover{
+    border: 2px solid rgb(37, 150, 190);
+}
+
+#Section_1 a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#Section_1 a:hover{
+    color:  rgb(37, 150, 190);
+}
+
+.price{
+    padding-top: 0.7em;
+}
+
+#selection{
+    width: 23em;
+    height: 3em;
+    margin: 1em 1em 1em 0;
+}
+
+.Add_To_Cart{
+    background-color: rgb(37, 150, 190);
+    color: white;
+    width: 15em;
+    height: 3em;
+    border: none;
+    border-radius: 5px;
+}
+
+.Add_To_Cart:hover{
+    background-color:  rgb(32, 123, 157);
+}
+
+
+/* SECTION 4 */
+#Section_4{
+    background-color: rgb(40, 122, 152);
+    color: white;
+    text-align: center;
+    padding: 7em;
+    margin-top: 5em;
+}
+
+#Section_4 h1{
+    font-size: 2.5em;
+}
+
+#Section_4 p{
+    color: white;
+    padding: 30px;
+}
+
+#Section_4 input{
+    font-weight: bold;
+    width: 20em;
+    /* height: 3em; */
+    padding: 1em;
+    outline: none;
+}
+
+#Section_4 button{
+    background-color:  rgb(17, 75, 96);
+    color: white;
+    width: 13em;
+    padding: 1em;
+    border: 1px solid  rgb(37, 150, 190);
+    border-radius: 5px;
+}
+
+#Section_4 button:hover{
+   background-color: rgb(37, 150, 190);
+}
+
+
+
+/* SECTION 5 */
+#Section_5{
+    background-color:  rgb(17, 75, 96);
+    color: white;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer1{
+    margin: 3em;
+}
+
+.footer_list{
+    list-style: none;
+    margin-top: 2em;
+    line-height: 2;
+}
+
+.footer_social p{
+    margin-top: 2em;
+}
+
+.footer_social img{
+    height: 1.8em;
+    border-radius: 5px;
+    margin: 20px 0 10px 0;
+}
+
+.footer_shop{
+    /* padding: 2em; */
+}
+
+.footer_footer {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+}
+
+.footer_footer img{
+    height: 25px;
+    border-radius: 5px;
+    margin: 0.1em;
+}
+
+.footer_footer p{
+    /* text-align: center; */
+    padding: 1em;
+}
